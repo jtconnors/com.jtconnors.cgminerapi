@@ -4,7 +4,7 @@
 
     <groupId>com.jtconnors</groupId>
     <artifactId>com.jtconnors.cgminerapi</artifactId>
-    <version>4.10.0</version>
+    <version>4.10.0-JDK8</version>
     <packaging>jar</packaging>
 
     <name>com.jtconnors.cgminerapi</name>
@@ -209,7 +209,7 @@
             <name>Jim Connors</name>
             <email>maven@jtconnors.com</email>
             <organization>jtconnors.com</organization>
-            <organizationUrl>https://jtconnors.com:8445</organizationUrl>
+            <organizationUrl>https://github.com/jtconnors</organizationUrl>
         </developer>
     </developers>
 </project>
