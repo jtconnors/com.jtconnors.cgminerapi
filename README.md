@@ -1,11 +1,11 @@
-# cgminerapi
+# com.jtconnors.cgminerapi
 Java version of the cgminer RPC API version 4.10.0, referenced by https://github.com/ckolivas/cgminer/blob/v4.10.0/API-README.  This project enables Java applications and frameworks to access running ```cgminer``` instances.  The API has facilities for both querying and manipulating mining (e.g bitcoin, etherium ...) activity.
 
 Of note, the following maven goals can be executed to clean and build the software:
 
    - ```mvn clean```
    - ```mvn dependency:copy-dependencies``` - to pull down dependencies, most notably the ```javax.json``` dependency
-   - ```mvn package``` - to create the ```target/cgminerapi-4.10.0.jar``` file
+   - ```mvn package``` - to create the ```target/com.jtconnors.cgminerapi-4.10.0.jar``` file
 
 ## Running the Sample Program
 A sample program demonstrating a small number of basic API invocations can be found in ```src/main/java/com/jtconnors/cgminerapi/Samples.java``` source file.  The ```Samples``` program must connect up to a running ```cgminer``` instance and accordingly accepts two optional command-line arguments as follows:
