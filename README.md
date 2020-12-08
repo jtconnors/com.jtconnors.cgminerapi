@@ -36,7 +36,7 @@ Additionally the following script can be run from a terminal to run the Sample p
 
 ## Notes:
 - The scripts referred to above have a few available command-line options. To print out the options, add ```-?``` or ```--help``` as an argument to any script.
-- The scripts share common properties that can be found in [sh/env.sh](sh/env.sh) or [ps1\env.ps1](ps1\env.ps1). These may need to be slightly modified to match your specific configuration.
+- The scripts share common properties that can be found in [sh/env.sh](sh/env.sh) or [ps1\env.ps1](ps1/env.ps1). These may need to be slightly modified to match your specific configuration.
 - A sample ```Microsoft.PowerShell_profile.ps1``` file has been included to help configure a default Powershell execution environment. A similar file can be generated specific to environments appropriate for running the ```bash(1)``` shell with a ```.bash_login``` or ```.bash_profile file.```
 
 ## See also:
