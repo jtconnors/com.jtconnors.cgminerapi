@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.jtconnors/com.jtconnors.cgminerapi/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.jtconnors/com.jtconnors.cgminerapi)
+
 # com.jtconnors.cgminerapi
 Java version of the cgminer RPC API version 4.10.0, referenced by https://github.com/ckolivas/cgminer/blob/v4.10.0/API-README.  This project enables Java applications and frameworks to access running ```cgminer``` instances.  The API has facilities for both querying and manipulating mining (e.g bitcoin, etherium ...) activity.
 
