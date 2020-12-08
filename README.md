@@ -31,7 +31,7 @@ The ```Samples``` class can run from maven by issuing:
 </properties>
 ```
 Additionally the following script can be run from a terminal to run the Sample program.  Command-line arguments can be modified inside these scripts, if necessary:
-- [sh/run-samples.sh]() or [ps1\run-samples.ps1]()
+- [sh/run-samples.sh](sh/run-samples.sh) or [ps1\run-samples.ps1](ps1/run-samples.ps1)
 
 
 ## Notes:
