@@ -32,6 +32,7 @@
 package com.jtconnors.cgminerapi;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -91,11 +92,15 @@ public abstract class CLArgs {
         this.progName = progName;
         this.clArgsSet = new HashSet<>();
         clArgsSet.add(DASH_HELP);
+        clArgsSet.add(DASH_DEBUGLOG);
         properties = new Properties();
-        try {
-            properties.load(clazz.getResourceAsStream(resourceName));
-        } catch (IOException e)  {
-            e.printStackTrace();
+        InputStream inputStream = clazz.getResourceAsStream(resourceName);
+        if (inputStream != null) {
+            try {
+                properties.load(clazz.getResourceAsStream(resourceName));
+            } catch (IOException e)  {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -134,8 +139,8 @@ public abstract class CLArgs {
      * @param value the default value associated with the key
      */
     public void addAllowableArg(String key, String value) {
-        if (properties.getProperty(key) == null) {
-            properties.setProperty(key, value);
+        if (getProperty(key) == null) {
+            setProperty(key, value);
         }
         clArgsSet.add(DASH + key);
     }

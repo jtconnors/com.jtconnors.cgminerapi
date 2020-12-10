@@ -4,7 +4,7 @@
 
     <groupId>com.jtconnors</groupId>
     <artifactId>com.jtconnors.cgminerapi</artifactId>
-    <version>4.10.0-JDK8</version>
+    <version>4.10.0.1-JDK8</version>
     <packaging>jar</packaging>
 
     <name>com.jtconnors.cgminerapi</name>
