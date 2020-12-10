@@ -7,7 +7,7 @@ Of note, the following maven goals can be executed to clean and build the softwa
 
    - ```mvn clean```
    - ```mvn dependency:copy-dependencies``` - to pull down dependencies, most notably the ```javax.json``` dependency
-   - ```mvn package``` - to create the ```target/com.jtconnors.cgminerapi-4.10.0.jar``` file
+   - ```mvn package``` - to create the ```target/com.jtconnors.cgminerapi-4.10.0.1-JDK8.jar``` file
 
 ## Running the Sample Program
 A sample program demonstrating a small number of basic API invocations can be found in [src/main/java/com/jtconnors/cgminerapi/Samples.java](src/main/java/com/jtconnors/cgminerapi/Samples.java) source file.  The ```Samples``` program must connect up to a running ```cgminer``` instance and accordingly accepts two optional command-line arguments as follows:
